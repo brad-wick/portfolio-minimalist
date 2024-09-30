@@ -41,7 +41,7 @@ export const experienceData = [
     image: mipaw,
     date: '2024 - present',
   },
-] as const
+]
 
 export const projectData = [
   {
@@ -108,7 +108,7 @@ export const projectData = [
     ],
     image: tibiaGenius,
   },
-] as const
+]
 
 export const skills = [
   // Frontend Skills
