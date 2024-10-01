@@ -26,10 +26,7 @@ export default function ExperienceCard({
   }
 
   return (
-    <section
-      className='group cursor-pointer transition ease-out duration-500'
-      onClick={toggleAccordion}
-    >
+    <section className='group cursor-pointer' onClick={toggleAccordion}>
       <div className='flex items-start gap-4 overflow-y-auto'>
         <Image
           className='overflow-hidden border bg-white border-white border-solid rounded-full'
@@ -40,7 +37,7 @@ export default function ExperienceCard({
           priority
           quality={80}
         />
-        <div className='flex flex-col w-full h-full select-none'>
+        <div className='flex flex-col w-full h-full select-none transition ease-out duration-500'>
           <div className='flex justify-between items-center'>
             <span className='font-bold text-sm sm:text-lg transition select-none flex flex-row items-center gap-1'>
               {title}
