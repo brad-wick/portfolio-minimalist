@@ -26,10 +26,10 @@ export const experienceData = [
     date: '2018 - 2023',
   },
   {
-    title: 'Tata Consultancy Service',
+    title: 'TCS',
     subtitle: 'Business Intelligence Intern',
     description:
-      'Interned @TCS, gaining hands-on experience in data analytics, report generation, and SQL optimization techniques.',
+      'Interned at Tata Consultancy Services, gaining hands-on experience in data analytics, report generation, and SQL optimization techniques.',
     image: tcs,
     date: '2023 - 2024',
   },
