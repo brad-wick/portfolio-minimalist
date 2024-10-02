@@ -37,12 +37,12 @@ export default function ExperienceCard({
           priority
           quality={80}
         />
-        <div className='flex flex-col w-full h-full select-none transition ease-out duration-500'>
+        <div className='flex flex-col w-full h-full select-none'>
           <div className='flex justify-between items-center'>
             <span className='font-bold text-sm sm:text-lg transition select-none flex flex-row items-center gap-1'>
               {title}
               <MdArrowForwardIos
-                className={`text-sm ease-in-out transition-all duration-300 opacity-0 group-hover:opacity-100 ${
+                className={`text-sm  transition-all ease-out duration-500 opacity-0 group-hover:opacity-100 ${
                   isOpen ? 'rotate-90' : ''
                 }`}
               />

@@ -18,9 +18,9 @@ export default function Introduction() {
           from
           <span className='text-violet-500 font-semibold'> Mexico</span>,
           focused on building scalable web apps using
-          <span className='font-semibold'> React (Next.js)</span>,
+          <span className='font-semibold'> React.js</span>,
           <span className='font-semibold'> TypeScript</span>,
-          <span className='font-semibold'> Tailwind</span>,
+          <span className='font-semibold'> Tailwind CSS</span>,
           <span className='font-semibold'> PostgreSQL</span>, and
           <span className='font-semibold'> Prisma</span>.
         </p>
